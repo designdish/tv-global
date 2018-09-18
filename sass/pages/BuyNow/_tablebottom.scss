@@ -1,0 +1,50 @@
+#addons.tablecontentbottom {
+  overflow: visible !important;
+  top: -155px;
+  z-index: 1;
+
+  .column2 .button {
+    background: #b2de37;
+  }
+
+  .button {
+    background: #f38933;
+    display: block !important;
+    padding: 15px 0 !important;
+    color: #fff !important;
+    text-align: center;
+    border-bottom-right-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    width: calc(100% + 26px);
+    position: relative;
+    display: table;
+    margin: 0 -14px;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .column4 {
+    overflow: visible;
+    z-index: 20;
+    top: -20px;
+
+    a.button.buy-now-cta {
+      background: #f38933;
+      font-size: 28px;
+      padding: 30px 0 !important;
+      margin: 0 -15px !important;
+      width: calc(100% + 30px);
+    }
+  }
+
+  .wpb_wrapper > div {
+    margin-bottom: 0px;
+  }
+
+  @for $i from 2 through 5 {
+    .column#{$i} {
+      border: 0;
+      padding: 0;
+    }
+  }
+}

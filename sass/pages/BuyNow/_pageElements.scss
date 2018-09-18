@@ -1,0 +1,26 @@
+#Wrapper {
+  background: linear-gradient(90deg, rgba(255, 255, 255, .01), rgba(240, 230, 240, 0.3), rgba(255, 255, 255, 0.31));
+
+  #Action_bar,
+  .menu_wrapper {
+    display: none !important;
+  }
+
+  #Top_bar {
+    top: 0px !important;
+  }
+
+  #Content {
+    padding-top: 0px !important;
+  }
+
+  .section1 > .vc_col-sm-6 {
+    padding-left: 0px;
+    padding-top: 0px !important;
+    min-height: 645px;
+  }
+
+  .upb_row_bg {
+    display: none;
+  }
+}

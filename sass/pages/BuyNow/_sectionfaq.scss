@@ -1,0 +1,55 @@
+.sectionfaq {
+  h1,
+  p,
+  a,
+  div {
+    color: #000;
+  }
+
+  h3 {
+    color: #fff;
+  }
+
+  .wpb_wrapper {
+    .faq {
+      border-bottom: 1px solid #67aadb;
+
+      .question {
+        &:after {
+          display: none !important;
+        }
+
+        .title,
+        .title:active,
+        p {
+          font-size: 20px;
+          color: #fff;
+
+          > .acc-icon-plus,
+          > .acc-icon-minus {
+            left: 20px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .style-simple {
+    .faq {
+      .question {
+        border: 0 !important;
+
+        &:after {
+          display: none !important;
+        }
+      }
+
+      .title,
+      .answer {
+        padding-left: 0px;
+        font-weight: bold;
+      }
+    }
+  }
+}

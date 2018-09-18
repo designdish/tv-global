@@ -1,0 +1,132 @@
+.tableheader {
+  span.smalldol {
+    font-size: 23px;
+    vertical-align: super;
+    top: 2px;
+    position: relative;
+  }
+
+  h4 {
+    font-size: 14px;
+    color: #5b5b5b;
+    font-weight: normal;
+    background: #f4faff;
+    display: table;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 auto 14px auto !important;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: normal !important;
+    line-height: 1em;
+    color: #2e77ae;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 14px 0 !important;
+  }
+
+  .wpb_text_column.wpb_content_element {
+    margin: 0;
+  }
+
+  .column2 a.button {
+    background: #b2de37;
+  }
+
+  a.button {
+    background: #f38933;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 22px;
+    border-radius: 2px;
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+
+  .wpb_wrapper {
+    text-align: center;
+  }
+
+  span.smalldol_euro {
+    font-size: 15px;
+    vertical-align: super;
+    top: 0px;
+    position: relative;
+    left: 5px;
+  }
+
+  div.cut {
+    color: #ff651a;
+    text-decoration: line-through;
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 10px;
+  }
+
+  div.price {
+    color: #2e77ae;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 0 14px 0;
+    line-height: 1em;
+    margin: -10px 0 0 0;
+  }
+}
+
+.tableheadertop {
+  position: relative;
+  margin-top: -480px !important;
+  margin-bottom: 0 !important;
+
+  @for $i from 2 through 5 {
+    .column#{$i} {
+      position: relative;
+      background: #fff;
+      padding: 20px 0 0 0;
+      border-color: #ebebeb;
+      border-style: solid;
+      border-width: 1px;
+    }
+  }
+
+  .column2 {
+    border-top-left-radius: 5px;
+    top: 30px;
+    border-right: none;
+    background: rgba(230, 230, 229, 1);
+  }
+
+  .column3 {
+    position: relative;
+    background: #fff;
+    padding: 20px 0 0 0;
+    border-right: none;
+    border-radius: 4px 0 0;
+    box-shadow: 1px -11px 11px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .column4 {
+    box-shadow: 0px 0px 20px 2px rgba(184, 184, 184, 0.6);
+    z-index: 10;
+    background: #f6fafd;
+    overflow: hidden;
+    margin-top: -40px;
+    padding-top: 30px !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    a.button.buy-now-cta {
+      background: #f38933;
+    }
+  }
+
+  .column5 {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+  }
+}

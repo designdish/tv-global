@@ -1,0 +1,11 @@
+@mixin hoverTransitionAll() {
+  transition: all ease-in-out .25s;
+
+  &:hover {
+    transition: all ease-in-out .25s;
+  }
+}
+
+@mixin transitionAll() {
+  transition: all ease-in-out .25s;
+} 

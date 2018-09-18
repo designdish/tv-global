@@ -1,0 +1,59 @@
+.tablecontent {
+  &.vc_row {
+    @include hoverTransitionAll;
+
+    .wpb_column {
+      @include hoverTransitionAll;
+    }
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.03);
+      box-shadow: inset 0px 0px 5px rgba(0, 0, 0, .2);
+
+      .wpb_column {
+        border-color: darken(#ebebeb, 5%);
+      }
+
+      .column4 {
+        background: rgba($PrimaryBlue, 0.2);
+
+        .fa-check {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .togglebar {
+    background: #33a4b8;
+    @include hoverTransitionAll;
+
+    &:hover {
+      background: darken(#33a4b8, 5%);
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: normal !important;
+    line-height: 1em;
+    color: #2e77ae;
+    font-weight: bold;
+    padding: 10px 0 0;
+    margin: 0 0 14px 0 !important;
+    cursor: pointer;
+
+    &:hover {
+    }
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 18px;
+  }
+
+  &.vc_row.vc_row-o-equal-height > .vc_column_container.column1 {
+    padding-left: 30px;
+    border-bottom: 1px solid #ebebeb;
+  }
+}

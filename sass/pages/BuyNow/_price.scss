@@ -1,0 +1,60 @@
+/* ###### Start Price Box for Solution Pages ###### */
+.price .period {
+  font-size: 18px;
+}
+
+.price .period_euro {
+  font-size: 15px;
+  left: -20px;
+  position: relative;
+}
+
+.pricebox {
+  background-color: #fdfdfd;
+  box-shadow: 2px 2px 6px 0 rgba(157, 164, 168, 0.4);
+  /* border: 1px solid #00adf7; */
+}
+
+.pricebox .hr_color {
+  margin-bottom: 0;
+  width: 60%;
+}
+
+.pricebox-inside {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.pricebox-inside ul {
+  list-style: none;
+  margin: 0px;
+}
+
+.pricebox-inside a,
+a:active {
+  color: #038ff4;
+}
+
+.pricebox-inside ul li {
+  text-align: center;
+  padding: 11px 10px;
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricebox .vc_column-inner {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.price .coupon-desc {
+  font-size: 16px;
+  line-height: 1.2 !important;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* ###### End Price Box for Solution Pages ###### */

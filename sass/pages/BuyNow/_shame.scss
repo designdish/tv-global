@@ -1,0 +1,356 @@
+.vc_icon_element.vc_icon_element-outer .vc_icon_element-inner.vc_icon_element-size-md .vc_icon_element-icon {
+  font-size: 22px !important;
+  margin-top: 3px;
+}
+
+.the_content h1 {
+  font-size: 45px;
+  line-height: 1em;
+}
+
+.topheaderbar {
+  z-index: 1;
+  overflow: visible !important;
+  margin-top: -4px;
+
+  .upb_row_bg {
+    display: none !important;
+  }
+}
+
+.headersection {
+  position: relative;
+  overflow: visible;
+}
+
+.section1 {
+  min-height: 645px;
+  overflow: visible;
+
+  h1,
+  p,
+  a,
+  div {
+    color: #fff;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+
+  > .vc_col-sm-6 {
+    padding-left: 0px;
+    padding-top: 90px;
+    min-height: 645px;
+  }
+
+  > .vc_col-sm-3 {
+    padding-top: 90px;
+    min-height: 645px;
+  }
+}
+
+.imgheader {
+  position: Absolute;
+  top: 0px;
+
+  img {
+    width: 533px !important;
+    max-width: 533px !important;
+    margin-left: -100px !important;
+  }
+}
+
+.mobilecontainer {
+  ul {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ebebeb;
+    font-size: 14px;
+  }
+
+  li {
+    text-align: left;
+    margin-bottom: 2px;
+  }
+
+  h3 {
+    text-align: left;
+    font-size: 20px;
+    color: #737e86;
+  }
+
+  .header {
+    display: none;
+    margin: 0 auto 20px auto;
+    background: #e4e4e4;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 22px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  .content {
+    display: block;
+    padding-bottom: 15px;
+  }
+}
+
+.desktoponly {
+  display: block !important;
+}
+
+.mobileonly,
+.hidesection {
+  display: none !important;
+}
+
+.entry-content .tooltip {
+  &:hover,
+  &.hover {
+    &:after {
+      visibility: hidden !important;
+    }
+  }
+}
+
+span.tooltip {
+  cursor: pointer !important;
+  border: 0 !important;
+}
+
+.tooltipster-base {
+  margin-top: -30px !important;
+}
+
+.tooltipster-default {
+  border: 2px solid #616161 !important;
+  background: #616161 !important;
+}
+
+.tooltipster-default .tooltipster-content {
+  font-family: "Effra-Light", Arial, Tahoma, sans-serif;
+}
+
+div.bv {
+  -ms-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  background: #b2de37;
+  display: table;
+  color: #fff;
+  padding: 10px 40px 10px 50px;
+  position: absolute;
+  right: -36px;
+  top: 18px;
+  font-size: 22px;
+}
+
+
+
+
+/*Custom Css*/
+
+
+/* Global site paddings for large Desktops */
+
+.section_wrapper,
+.container,
+.with_aside .content_wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 100% !important;
+}
+
+.vc_custom_1528115249974 {
+  background-position: left !important;
+}
+
+
+/*theme option*/
+
+html,
+body {
+  overflow: unset;
+}
+
+
+/* ############### Global site sizes and paddings ############### */
+
+
+/* Global site paddings for large Desktops */
+
+.section_wrapper,
+.container,
+.with_aside .content_wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.tel-no {
+  display: none;
+}
+
+#Top_bar .menu li ul li {
+  width: 225px;
+}
+
+.menu-item a.menu-image-title-before.menu-image-not-hovered img,
+.menu-item a.menu-image-hovered.menu-image-title-before .menu-image-hover-wrapper {
+  width: 16px;
+  height: 16px;
+}
+
+.external-top:after {
+  color: #7a7a7a !important;
+  opacity: .8;
+  background: url(https://www.teamviewer.com/resources/images/icons/external-link-arrow.svg) top right no-repeat;
+}
+
+.external-top:after,
+.external:after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 10px;
+  margin-top: 15px;
+}
+
+#Footer,
+#Footer .widget_recent_entries ul li a {
+  z-index: 99;
+}
+
+.frontpage-img-wrapper-01 .mcb-wrap-inner,
+.frontpage-img-wrapper-04 .mcb-wrap-inner {
+  max-width: 1100px;
+  float: left !important;
+}
+
+
+/*Updated Css*/
+
+
+/* ############### Global site sizes and paddings ############### */
+
+
+/* Global site paddings for large Desktops */
+
+.section_wrapper,
+.container,
+.with_aside .content_wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#Top_bar .menu li ul li {
+  width: 255px;
+}
+
+.menu-item {
+  a.menu-image-title-before.menu-image-not-hovered img,
+  a.menu-image-hovered.menu-image-title-before .menu-image-hover-wrapper {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.external-top:after {
+  color: #7a7a7a !important;
+  opacity: .8;
+  background: url(https://www.teamviewer.com/resources/images/icons/external-link-arrow.svg) top right no-repeat;
+}
+
+.external-top:after,
+.external:after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 10px;
+  margin-top: 15px;
+}
+
+#Footer,
+#Footer .widget_recent_entries ul li a {
+  z-index: 99;
+}
+
+.section-heading-h2 a:focus {
+  color: #000;
+}
+
+.light-text a:link,
+.light-text a:visited {
+  color: #fff;
+}
+
+.frontpage-img-wrapper-05 h2 a {
+  color: #fff;
+}
+
+a.button {
+  margin-bottom: 15px !important;
+}
+
+
+
+/*= Team Viewer Header code custom=================== */
+
+
+/** General >> Background Extension **/
+
+#menu-item-4137 {
+  a {
+    width: 300px !important;
+    margin-left: -10px !important;
+  }
+
+  > a:nth-of-type(1) > span:nth-of-type(1) > span {
+    margin-left: -5px !important;
+  }
+}
+
+
+/** header contact number injection **/
+
+h3.js-featured-phone {
+  font-size: 26px;
+  line-height: 30px;
+
+  span {
+    font-size: 36px;
+    display: block;
+    margin-left: 35px;
+    margin-top: 5px;
+
+    &:before {
+      font-family: "dashicons";
+      content: "\f525";
+      border: 0px solid red;
+      width: 50px;
+      position: absolute;
+      left: 5px;
+      height: 50px;
+    }
+  }
+}
+
+.vc_row-has-fill {
+  + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner,
+  + .vc_row > .vc_column_container > .vc_column-inner,
+  + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+  + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+  > .vc_column_container > .vc_column-inner,
+  > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+  > .vc_vc_column_inner > .vc_column_container > .vc_column-inner {
+    padding-top: 0px !important;
+  }
+}
+
+.vc_col-has-fill > .vc_column-inner,
+.vc_section.vc_section-has-fill,
+.vc_section.vc_section-has-fill + .vc_row-full-width + .vc_section,
+.vc_section.vc_section-has-fill + .vc_section {
+  padding-top: 0px !important;
+}

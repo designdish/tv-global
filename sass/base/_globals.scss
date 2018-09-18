@@ -1,0 +1,16 @@
+.slideToggle {
+  &.hidden {
+    @include transitionAll;
+    transform: scaleY(0);
+    height: 0;
+    opacity: 0;
+  }
+
+  &.toggled {
+    @include transitionAll;
+    max-height: none;
+    overflow: initial;
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
